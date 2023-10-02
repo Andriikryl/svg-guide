@@ -1,6 +1,8 @@
 import CircleSvg from "@/components/circleSvg/CircleSvg";
 import Hero from "@/components/hero/Hero";
 import Line from "@/components/line/Line";
+import Path from "@/components/path/Path";
+import Polyline from "@/components/polyline/Polyline";
 import ViewBox from "@/components/viewBox/ViewBox";
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <ViewBox />
       <CircleSvg />
       <Line />
+      <Polyline />
+      <Path />
     </>
   );
 }

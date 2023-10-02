@@ -1,0 +1,14 @@
+.hero{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#d1de19 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    padding-block: 150px;
+}
+
+.hero__title{
+    color: #e63946;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.box{
+    padding-block: 100px;
+    background-color: #6d6875;
+}
+
+.box__description{
+    color: #252422;
+    font-size: 20px;
+    max-width: 500px;
+    margin-block-end: 20px;
+    border-left: 3px solid #ffc300;
+    padding-inline-start: 10px;
+}
+.svg__box{
+    max-width: 500px;
+    overflow: hidden;
+    margin-block-end: 20px;
+}
+
+.box__title{
+    font-size: 30px;
+    color: #252422;
+    width: max-content;
+    border-bottom: 3px solid #ffc300;
+    text-transform: uppercase;
+    margin-block-end: 20px;
+}
+
+.code__box{
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.view{
+    color: #d62828;
+}

@@ -1,0 +1,9 @@
+.header{
+    border-bottom: 1px solid black;
+    padding-block: 40px;
+}
+
+.header__title{
+    font-size: 30px;
+    text-transform: uppercase;
+}

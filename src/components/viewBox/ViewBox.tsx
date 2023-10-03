@@ -50,6 +50,12 @@ export default function ViewBox() {
             <span className={style.view}>viewBox</span>={x},{y},{width},{heigth}
           </span>
         </div>
+        <div>
+          <p className={style.box__description}>
+            The viewBox attribute takes four parameters as a value: min-x,
+            min-y, width and height.
+          </p>
+        </div>
       </Container>
     </section>
   );

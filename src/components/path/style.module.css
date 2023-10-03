@@ -32,3 +32,59 @@
     color: white;
     margin-block-end: 20px;
 }
+
+.line__boxPath{
+    margin-block-start: 20px;
+    max-width: 500px;
+    min-height: 300px;
+}
+
+.path{
+    fill: none;
+    stroke: rebeccapurple;
+}
+
+.flex__group{
+    margin-block-start: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.button__group{
+    max-width: 500px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.button{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-block: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    background-color: #003566;
+    color: #ffd60a;
+    cursor: pointer;   
+    transition: all 500ms ease-in-out;
+}
+
+.button:hover{
+    background-color: #edf2f4;
+    color: #2b2d42;
+}
+
+.button__description{
+    color: #06d6a0;
+}
+
+.buttonClicked {
+    background-color: white;
+  }
+
+  .description__box{
+    margin-block-start: 20px;
+  }

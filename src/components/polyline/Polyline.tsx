@@ -44,10 +44,12 @@ export default function Polyline() {
           point 3 Y
         </InputFrame>
         <p className={style.code__box}>
-          line x1=&quot;<span className={style.code__style}>{x1}</span>&quot;
-          y1=&quot;<span className={style.code__style}>{y1}</span>&quot;
-          x2=&quot;<span className={style.code__style}>{x2}</span>&quot;
-          y2=&quot;<span className={style.code__style}>{y2}</span>&quot;
+          polyline point 1 X=&quot;
+          <span className={style.code__style}>{x1}</span>
+          &quot; point 1 Y=&quot;<span className={style.code__style}>{y1}</span>
+          &quot; point 2 X=&quot;<span className={style.code__style}>{x2}</span>
+          &quot; point 2 Y=&quot;<span className={style.code__style}>{y2}</span>
+          &quot;
         </p>
       </Container>
     </section>

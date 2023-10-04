@@ -48,12 +48,14 @@
     margin-block-start: 20px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
 .button__group{
     max-width: 500px;
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     flex-direction: column;
 }

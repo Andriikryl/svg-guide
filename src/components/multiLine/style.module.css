@@ -1,0 +1,39 @@
+.multiline{
+    padding-block: 100px;
+    background-color: #14213d;
+}
+
+.multiline__tilte{
+    width: max-content;
+    border-bottom: 3px solid #fcc300;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-block-end: 20px;
+}
+
+.box{
+    max-width: 500px;
+}
+
+.description{
+    border-left: 3px solid #fcc300;
+    padding-inline-start: 10px;
+    color: white;
+    font-size: 25px;
+    margin-block-end: 20px;
+}
+
+.code__box{
+    margin-block-start: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #d0f4de;
+}
+
+.code__item{
+    font-size: 20px;
+    color: #ff99c8;
+}

@@ -26,16 +26,16 @@ export default function Line() {
           </svg>
         </MainField>
         <InputFrame value={x1} set={setX1} min={0} max={800}>
-          r
+          x1
         </InputFrame>
         <InputFrame value={x2} set={setX2} min={0} max={800}>
-          cx
+          x2
         </InputFrame>
         <InputFrame value={y1} set={setY1} min={0} max={800}>
-          cy
+          y1
         </InputFrame>
         <InputFrame value={y2} set={setY2} min={0} max={800}>
-          r
+          y2
         </InputFrame>
         <p className={style.code__box}>
           line x1=&quot;<span className={style.code__style}>{x1}</span>&quot;

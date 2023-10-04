@@ -1,0 +1,57 @@
+.comand{
+    padding-block: 100px;
+    background-color: black;
+}
+
+.comands__title{
+    width: max-content;
+    border-bottom: 3px solid #ffc300;
+    padding-block-end: 10px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-block-end: 20px;
+}
+
+.box{
+    max-width: 500px;
+    flex-grow: 1;
+}
+
+.cicel{
+    fill: black;
+    stroke:  #ffc300;
+}
+
+.stroke{
+    stroke: gray;
+}
+
+
+.flex__group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.code__box{
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    max-width: 500px;
+}
+
+.code__item{
+    font-size: 20px;
+}
+
+.description{
+    border-left: 4px solid #ffc300;
+    padding-inline-start: 10px;
+    margin-block-start: 20px;
+    color: white;
+    font-size: 20px;
+}

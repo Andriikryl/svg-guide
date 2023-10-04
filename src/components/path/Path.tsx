@@ -184,6 +184,13 @@ export default function Path() {
             </button>
           </div>
         </div>
+        <div className={style.description__box}>
+          <p className={style.path__description}>
+            All path commands follow the same basic syntax — a single-letter
+            code followed by a series of numbers. The letter code identifies the
+            command type, while the numbers act as the commands parameters.
+          </p>
+        </div>
       </Container>
     </section>
   );

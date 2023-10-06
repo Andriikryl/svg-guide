@@ -1,0 +1,44 @@
+.scale{
+    padding-block: 100px;
+    background-color: #001d3d;
+}
+
+.box{
+    max-width: 400px;
+}
+
+.loading__barLeft {
+    animation: loading-bar-morph 1s linear 0.1s infinite;
+    transform-origin: center;
+  }
+  .loading__barMidl {
+    animation: loading-bar-morph 1s linear 0.2s infinite;
+    transform-origin: center;
+  }
+  .loading__barRight {
+    animation: loading-bar-morph 1s linear 0.4s infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes loading-bar-morph {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(0.3);
+    }
+    50% {
+      transform: scaleY(0.7);
+    }
+    75% {
+      transform: scaleY(0.15);
+    }
+  }
+
+  .scale__description{
+    font-size: 25px;
+    color: #ffe5ec;
+    background-color: #3c6e71;
+    padding: 20px;
+    margin-block-end: 20px;
+  }

@@ -1,0 +1,37 @@
+.positions{
+    padding-block: 100px;
+    background-color: #83c5be;
+}
+
+.box{
+    max-width: 500px;
+    margin-block-end: 20px;
+}
+
+.position__description{
+    font-size: 20px;
+    color: white;
+    border-left: 5px solid #ffc300;
+    padding-inline-start: 10px;
+    margin-block-end: 20px;
+}
+
+.code__box{
+    display: block;
+    background-color: #dde5b6;
+    padding: 20px;
+    margin-block-end: 20px;
+}
+
+.code{
+    font-size: 20px;
+    color: #a98467;
+}
+
+.title{
+    background-color: #127475;
+    padding: 20px;
+    color: #f2542d;
+    font-size: 30px;
+    margin-block-end: 20px;
+}

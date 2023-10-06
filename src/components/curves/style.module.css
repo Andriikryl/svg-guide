@@ -1,0 +1,18 @@
+.curves{
+    background-color: #5a189a;
+    padding-block: 100px;
+}
+
+.curves__title{
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #ff9f1c;
+    padding: 20px;
+    margin-block-end: 20px;
+}
+
+.box{
+    max-width: 400px;
+    margin-block-end: 20px;
+    background-color: black;;
+}
